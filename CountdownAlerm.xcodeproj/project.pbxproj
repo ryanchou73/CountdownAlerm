@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		945F667A3096D81C00F953B2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 945F66793096D81200F953B2 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		94E434303095D9ED00E0DF0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945F66793096D81200F953B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		94E434213095D9E900E0DF0B /* CountdownAlerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownAlerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E4342F3095D9ED00E0DF0B /* CountdownAlermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownAlermTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E434393095D9ED00E0DF0B /* CountdownAlermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownAlermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		94E434183095D9E900E0DF0B = {
 			isa = PBXGroup;
 			children = (
+				945F66793096D81200F953B2 /* README.md */,
 				94E434233095D9E900E0DF0B /* CountdownAlerm */,
 				94E434323095D9ED00E0DF0B /* CountdownAlermTests */,
 				94E4343C3095D9ED00E0DF0B /* CountdownAlermUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945F667A3096D81C00F953B2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
