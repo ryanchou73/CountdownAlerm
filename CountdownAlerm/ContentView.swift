@@ -3,7 +3,7 @@ import Foundation
 import SwiftUI
 
 struct ContentView: View {
-    private let totalDuration: TimeInterval = 5 * 60
+    private let totalDuration: TimeInterval = 60 * 60
 
     private let cream = Color(red: 0.96, green: 0.93, blue: 0.86)
     private let gold = Color(red: 0.89, green: 0.70, blue: 0.36)
